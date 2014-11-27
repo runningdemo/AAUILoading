@@ -14,6 +14,7 @@
 		94DEE6681A200F0B001C7E5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DEE6671A200F0B001C7E5C /* Images.xcassets */; };
 		94DEE66B1A200F0B001C7E5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DEE6691A200F0B001C7E5C /* LaunchScreen.xib */; };
 		94DEE6771A200F0B001C7E5C /* AAUILoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DEE6761A200F0B001C7E5C /* AAUILoadingTests.m */; };
+		94DEE6821A20130A001C7E5C /* AAUILoading001.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DEE6811A20130A001C7E5C /* AAUILoading001.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		94DEE6701A200F0B001C7E5C /* AAUILoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAUILoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DEE6751A200F0B001C7E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94DEE6761A200F0B001C7E5C /* AAUILoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAUILoadingTests.m; sourceTree = "<group>"; };
+		94DEE6801A20130A001C7E5C /* AAUILoading001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAUILoading001.h; path = Loadings/AAUILoading001.h; sourceTree = "<group>"; };
+		94DEE6811A20130A001C7E5C /* AAUILoading001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAUILoading001.m; path = Loadings/AAUILoading001.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		94DEE64E1A200F0B001C7E5C = {
 			isa = PBXGroup;
 			children = (
+				94DEE6801A20130A001C7E5C /* AAUILoading001.h */,
+				94DEE6811A20130A001C7E5C /* AAUILoading001.m */,
 				94DEE6591A200F0B001C7E5C /* AAUILoading */,
 				94DEE6731A200F0B001C7E5C /* AAUILoadingTests */,
 				94DEE6581A200F0B001C7E5C /* Products */,
@@ -81,13 +86,8 @@
 		94DEE6591A200F0B001C7E5C /* AAUILoading */ = {
 			isa = PBXGroup;
 			children = (
-				94DEE65E1A200F0B001C7E5C /* AppDelegate.h */,
-				94DEE65F1A200F0B001C7E5C /* AppDelegate.m */,
 				94DEE6611A200F0B001C7E5C /* ViewController.h */,
 				94DEE6621A200F0B001C7E5C /* ViewController.m */,
-				94DEE6641A200F0B001C7E5C /* Main.storyboard */,
-				94DEE6671A200F0B001C7E5C /* Images.xcassets */,
-				94DEE6691A200F0B001C7E5C /* LaunchScreen.xib */,
 				94DEE65A1A200F0B001C7E5C /* Supporting Files */,
 			);
 			path = AAUILoading;
@@ -96,6 +96,11 @@
 		94DEE65A1A200F0B001C7E5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94DEE65E1A200F0B001C7E5C /* AppDelegate.h */,
+				94DEE65F1A200F0B001C7E5C /* AppDelegate.m */,
+				94DEE6641A200F0B001C7E5C /* Main.storyboard */,
+				94DEE6671A200F0B001C7E5C /* Images.xcassets */,
+				94DEE6691A200F0B001C7E5C /* LaunchScreen.xib */,
 				94DEE65B1A200F0B001C7E5C /* Info.plist */,
 				94DEE65C1A200F0B001C7E5C /* main.m */,
 			);
@@ -221,6 +226,7 @@
 			files = (
 				94DEE6631A200F0B001C7E5C /* ViewController.m in Sources */,
 				94DEE6601A200F0B001C7E5C /* AppDelegate.m in Sources */,
+				94DEE6821A20130A001C7E5C /* AAUILoading001.m in Sources */,
 				94DEE65D1A200F0B001C7E5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				94DEE67C1A200F0B001C7E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DEE67D1A200F0B001C7E5C /* Build configuration list for PBXNativeTarget "AAUILoadingTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				94DEE67F1A200F0B001C7E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
